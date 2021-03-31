@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Авторизация</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="browserIE.js"></script>
+</head>
+
+
+<body onload="initClock()">
+<!--страница авторизации-->
+    <form action="">
+      <h1 title="Страница авторизации">Вход</h1>
+      <div class="group">
+          <label for="">Логин</label>
+          <input type="email" id="email">
+          <small></small>
+      </div>
+      <div class="group">
+        <label for="">Пароль</label>
+        <input type="password" id="password">
+        <small></small>
+      </div>
+      <div class="group">
+        <label for="">Номер телефона</label>
+        <input type="tel" id="phone">
+        <small></small>
+      </div>
+      <div class="group">
+        <center><button id="submit">Вход</button></center>
+      </div>
+    </form>
+
+<!--Время и дата-->
+  <div class="datetime">
+    <div class="date">
+      <span id="dayname">День</span>,
+      <span id="month">Месяц</span>
+      <span id="daynum">00</span>,
+      <span id="year">Год</span>
+    </div>
+    <div class="time">
+      <span id="hour">00</span>:
+      <span id="minute">00</span>:
+      <span id="seconds">00</span>
+    </div>
+  </div>
+  
+
+  <script src="jsscript.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
